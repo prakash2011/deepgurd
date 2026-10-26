@@ -1,0 +1,30 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.tmp
+*.log
+
+# Environment & Testing
+.pytest_cache/
+.env
+
+# Large dataset folders (do not commit GBs of raw videos)
+archive (1)/
+CelebDF_samples/
+data/
+FakeAVCeleb_real/
+FakeAVCeleb_samples/
+
+# Feature caches (re-creatable)
+features_cache_archive.pt
+benchmark_cache.pt
+test_cache.pt
+
+# Uploaded user videos (keep folder, ignore video uploads)
+uploads/*
+!uploads/.gitkeep
+
+# System files
+desktop.ini
+Thumbs.db

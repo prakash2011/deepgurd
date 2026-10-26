@@ -1,0 +1,29 @@
+{
+  "dataset_path": "E:\\Adani_project\\CelebDF_samples",
+  "is_cross_dataset": true,
+  "evaluation_type": "cross-dataset",
+  "weights_path": "E:\\Adani_project\\weights.pt",
+  "total_evaluated": 6,
+  "skipped_files": 0,
+  "real_count": 3,
+  "fake_count": 3,
+  "metrics": {
+    "auc": 1.0,
+    "f1": 1.0,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "confusion_matrix": [
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "timestamp": "2026-10-17T07:38:54.081760+00:00",
+  "note": "A performance drop is expected when evaluating cross-dataset models on unseen generators."
+}

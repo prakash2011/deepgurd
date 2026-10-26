@@ -1,0 +1,23 @@
+{
+  "dataset_path": "E:\\Adani_project\\archive (1)\\FakeAVCeleb_v1.2\\FakeAVCeleb_v1.2",
+  "total_videos": 360,
+  "train_samples": 289,
+  "val_samples": 71,
+  "train_identities": 219,
+  "val_identities": 55,
+  "identity_overlap": 0,
+  "best_epoch": 10,
+  "best_auc": 0.9634,
+  "best_f1": 0.75,
+  "best_accuracy": 0.8028,
+  "hyperparameters": {
+    "epochs": 30,
+    "batch_size": 32,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "patience": 5,
+    "hidden_dim": 256,
+    "pos_weight": 0.9795
+  },
+  "timestamp": "2026-10-17T10:22:28.158373+00:00"
+}
